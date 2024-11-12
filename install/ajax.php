@@ -176,9 +176,9 @@ if ($step == 'check')
 		$info = [];
 
 		//https://www.php.net/supported-versions.php
-		$minimal_required = 5.6;
-		$current          = 7.4;
-		$last_end_of_life = 7.1;
+		$minimal_required = 8.2;
+		$current          = 8.3;
+		$last_end_of_life = 8.0;
 
 		if (version_compare(PHP_VERSION, $minimal_required, '<'))
 		{
